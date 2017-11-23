@@ -1,4 +1,5 @@
 $space-bottom: 20px;
+$space-top: 30px;
 
 h4 {
 	margin-bottom: $space-bottom;
@@ -9,6 +10,9 @@ button {
 .wrapper {
 	margin: 2.5% auto;
 	width:  600px / 960px * 100%;
+}
+.task-list-wrapper {
+	margin-top: $space-top;
 }
 .testing {
   width: percentage(5/7);

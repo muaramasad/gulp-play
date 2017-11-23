@@ -8,5 +8,8 @@ button {
   margin: 2.5% auto;
   width: 62.5%; }
 
+.task-list-wrapper {
+  margin-top: 30px; }
+
 .testing {
   width: 71.42857%; }

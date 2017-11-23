@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Gulp Test</title>
-		<!--build:css css/styles.min.css-->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<!--endbuild-->
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="container">
+
+<head>
+	<title>Gulp Test</title>
+	<!--build:css css/styles.min.css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!--endbuild-->
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="row">
 				<div class="col-md-12">
 					<h4 class="display-4">Agenda Hari Ini</h4>
 					<form>
@@ -24,11 +27,24 @@
 					</form>
 				</div>
 			</div>
+			<div class="row task-list-wrapper">
+				<div class="col-md-12">
+					<ul class="list-group">
+						<li class="list-group-item">Beli ketoprak</li>
+						<li class="list-group-item">Ambil jambu</li>
+						<li class="list-group-item">Cuci Motor</li>
+						<li class="list-group-item">Nonton tv</li>
+						<li class="list-group-item">Tidur - tiduran</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<!--build:js js/main.min.js -->
-		<script src="js/jquery-3.2.1.slim.min.js"></script>
-		<script src="js/popper.min.js" ></script>
-		<script src="js/bootstrap.min.js"></script>
-		<!-- endbuild -->
-	</body>
+	</div>
+	<!--build:js js/main.min.js -->
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- endbuild -->
+</body>
+
 </html>
