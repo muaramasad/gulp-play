@@ -1,0 +1,15 @@
+$space-bottom: 20px;
+
+h4 {
+	margin-bottom: $space-bottom;
+}
+button {
+	cursor:pointer;
+}
+.wrapper {
+	margin: 2.5% auto;
+	width:  600px / 960px * 100%;
+}
+.testing {
+  width: percentage(5/7);
+}
